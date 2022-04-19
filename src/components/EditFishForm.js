@@ -37,6 +37,9 @@ class EditFishForm extends React.Component {
           value={this.props.fish.desc}
         ></textarea>
         <img src={this.props.fish.image} alt={this.props.fish.name} />
+        <button onClick={() => this.props.deleteFish(this.props.index)}>
+          Remove Fish
+        </button>
       </div>
     );
   }
