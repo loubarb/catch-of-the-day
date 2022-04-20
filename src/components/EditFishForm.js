@@ -1,11 +1,24 @@
 import React from 'react';
 import { formatPrice } from '../helpers';
+import PropTypes from 'prop-types';
 
 class EditFishForm extends React.Component {
   handleChange = (e) => {
     // 1. take copy of current fish
     const updatedFish = { ...this.props.fish, [e.target.name]: e.target.value };
     this.props.updateFish(this.props.index, updatedFish);
+  };
+
+  static propTypes = {
+    fish: PropTypes.shape({
+      name: PropTypes.string,
+      price: PropTypes.number,
+      status: PropTypes.string,
+      desc: PropTypes.string,
+      image: PropTypes.string,
+    }),
+    updateFish: PropTypes.func,
+    index: PropTypes.string,
   };
 
   render() {
