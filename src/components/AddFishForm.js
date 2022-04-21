@@ -16,7 +16,7 @@ class AddFishForm extends React.Component {
     e.preventDefault();
     const fish = {
       name: this.nameRef.current.value,
-      price: parseFloat(this.priceRef.current.value),
+      price: this.priceRef.current.value,
       status: this.statusRef.current.value,
       desc: this.descRef.current.value,
       image: this.imageRef.current.value,
@@ -28,8 +28,8 @@ class AddFishForm extends React.Component {
 
   render() {
     return (
-      <div className="AddFishForm" onSubmit={this.createFish}>
-        <form className="fish-edit">
+      <div className="AddFishForm">
+        <form className="fish-edit" onSubmit={this.createFish}>
           <input
             name="name"
             ref={this.nameRef}
@@ -51,7 +51,7 @@ class AddFishForm extends React.Component {
             ref={this.descRef}
             placeholder="Description"
           ></textarea>
-          <input
+          <textarea
             name="image"
             ref={this.imageRef}
             type="text"
