@@ -11,9 +11,9 @@ const Login = (props) => (
     <button className="facebook" onClick={() => props.authenticate('Facebook')}>
       Login with Facebook
     </button>
-    <button className="twitter" onClick={() => props.authenticate('Twitter')}>
+    {/* <button className="twitter" onClick={() => props.authenticate('Twitter')}>
       Login with Twitter
-    </button>
+    </button> */}
   </nav>
 );
 

@@ -49,12 +49,7 @@ class EditFishForm extends React.Component {
           onChange={this.handleChange}
           value={this.props.fish.desc}
         ></textarea>
-        <img
-          src={this.props.fish.image}
-          alt={this.props.fish.name}
-          height="75px"
-          width="50%"
-        />
+        <img src={this.props.fish.image} alt={this.props.fish.name} />
         <button onClick={() => this.props.deleteFish(this.props.index)}>
           Remove Fish
         </button>
