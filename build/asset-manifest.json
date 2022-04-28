@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/catch-of-the-day/static/css/main.32ed9e78.chunk.css",
+    "main.js": "/catch-of-the-day/static/js/main.cb69ae67.chunk.js",
+    "main.js.map": "/catch-of-the-day/static/js/main.cb69ae67.chunk.js.map",
+    "runtime-main.js": "/catch-of-the-day/static/js/runtime-main.10c8e3c6.js",
+    "runtime-main.js.map": "/catch-of-the-day/static/js/runtime-main.10c8e3c6.js.map",
+    "static/js/2.c9d1c0a7.chunk.js": "/catch-of-the-day/static/js/2.c9d1c0a7.chunk.js",
+    "static/js/2.c9d1c0a7.chunk.js.map": "/catch-of-the-day/static/js/2.c9d1c0a7.chunk.js.map",
+    "index.html": "/catch-of-the-day/index.html",
+    "static/css/main.32ed9e78.chunk.css.map": "/catch-of-the-day/static/css/main.32ed9e78.chunk.css.map",
+    "static/js/2.c9d1c0a7.chunk.js.LICENSE.txt": "/catch-of-the-day/static/js/2.c9d1c0a7.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/catch-of-the-day/static/media/haymaker-webfont.f5976e5d.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10c8e3c6.js",
+    "static/js/2.c9d1c0a7.chunk.js",
+    "static/css/main.32ed9e78.chunk.css",
+    "static/js/main.cb69ae67.chunk.js"
+  ]
+}
