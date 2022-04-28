@@ -1,6 +1,5 @@
 {
   "name": "cotd",
-  "homepage": "https://loubarb.github.io/catch-of-the-day/",
   "version": "0.0.3",
   "private": true,
   "devDependencies": {
@@ -10,7 +9,6 @@
   "dependencies": {
     "autoprefixer-stylus": "1.0.0",
     "firebase": "8.10.0",
-    "gh-pages": "^3.2.3",
     "prop-types": "15.7.2",
     "re-base": "4.0.0",
     "react": "17.0.2",
@@ -23,8 +21,6 @@
   "scripts": {
     "dev": "react-scripts start",
     "start": "react-scripts start",
-    "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build", 
     "watch": "concurrently --names \"webpack, stylus\" --prefix name \"npm run start\" \"npm run styles:watch\"",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
