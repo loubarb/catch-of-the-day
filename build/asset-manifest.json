@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.1a5272e2.chunk.css",
-    "main.js": "/static/js/main.cb69ae67.chunk.js",
-    "main.js.map": "/static/js/main.cb69ae67.chunk.js.map",
+    "main.js": "/static/js/main.1e3ad2e6.chunk.js",
+    "main.js.map": "/static/js/main.1e3ad2e6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cb7d3115.js",
     "runtime-main.js.map": "/static/js/runtime-main.cb7d3115.js.map",
-    "static/js/2.a324695b.chunk.js": "/static/js/2.a324695b.chunk.js",
-    "static/js/2.a324695b.chunk.js.map": "/static/js/2.a324695b.chunk.js.map",
+    "static/js/2.4a5dd7fb.chunk.js": "/static/js/2.4a5dd7fb.chunk.js",
+    "static/js/2.4a5dd7fb.chunk.js.map": "/static/js/2.4a5dd7fb.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.1a5272e2.chunk.css.map": "/static/css/main.1a5272e2.chunk.css.map",
-    "static/js/2.a324695b.chunk.js.LICENSE.txt": "/static/js/2.a324695b.chunk.js.LICENSE.txt",
+    "static/js/2.4a5dd7fb.chunk.js.LICENSE.txt": "/static/js/2.4a5dd7fb.chunk.js.LICENSE.txt",
     "static/media/style.css": "/static/media/haymaker-webfont.f5976e5d.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.cb7d3115.js",
-    "static/js/2.a324695b.chunk.js",
+    "static/js/2.4a5dd7fb.chunk.js",
     "static/css/main.1a5272e2.chunk.css",
-    "static/js/main.cb69ae67.chunk.js"
+    "static/js/main.1e3ad2e6.chunk.js"
   ]
 }
