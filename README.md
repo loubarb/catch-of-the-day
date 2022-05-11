@@ -1,8 +1,10 @@
 # Catch of the Day
 A mock seafood marketplace app built with React.
 
-Users can create their own menu or load the sample fish from their inventory.
+Users start by loading the pre-set fish inventory with a click of a button and/or create their own fish to add.
 
-The quantity of fish are added to their order and the total cost is updated based on the fish and quantity.
+The user may then add the fish(es) of their choice to their order list.
 
-Users can also remove from their order or remove fish from the inventory.
+The quantity of fish are added and the total cost is updated based on the fish and quantity.
+
+Users can also remove fish from their order or remove fish from the inventory.
